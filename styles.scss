@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63629.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 450px;
+    padding: 50px;
+    background-color: rgb(212, 211, 211);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow values */
+  }
+
+
+.box .email{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.box .ps{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.btn-primary{
+    background-color: green;
+}
+
+
+label {
+    display: flex;
+    align-items: center; /* Vertically align label and input */
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 10px; /* Adjust spacing between label and input */
+}
+
+input::placeholder {
+    color: #999; /* Adjust color as needed */
+}
+
+
+.form-control{
+    width: 200px;
+    height: 50px;
+}
+
+.form-label text{
+    align-items: center;
+}
