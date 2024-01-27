@@ -1,5 +1,7 @@
+
 body{
-    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63629.jpg);
+    background: rgb(136,159,154);
+    background: linear-gradient(90deg, rgba(136,159,154,1) 0%, rgba(157,200,192,1) 50%, rgba(184,200,157,1) 100%);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -13,55 +15,94 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 35px;
+    margin-right: 35px;
     width: 650px;
-    height: 450px;
-    padding: 50px;
-    background-color: rgb(212, 211, 211);
+    height: 500px;
+    background-color: rgb(37, 42, 65);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow values */
-  }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+     }
+.box h2{
+    color: #355e3b;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 
-
-.box .email{
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
-    text-decoration: none;
 }
 
-.box .ps{
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
+.box img{
+   position: absolute;
+   margin-bottom: 295px;
+   size-adjust: 15px;
+   width: 100px;
+   height: 100px;
+   margin-right: 185px;
+   
 }
-
-
-.btn-primary{
-    background-color: green;
-}
-
-
-label {
-    display: flex;
-    align-items: center; /* Vertically align label and input */
-}
-
-input {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-left: 10px; /* Adjust spacing between label and input */
-}
-
-input::placeholder {
-    color: #999; /* Adjust color as needed */
-}
-
 
 .form-control{
-    width: 200px;
-    height: 50px;
+    height: 55px;
+    margin-left: 70px;
+    color: #355e3b;
 }
 
-.form-label text{
+#InputOne {
+    width: 580px;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
+
+  
+  
 }
+
+.col-md-5 {
+    width: 10px;
+    margin-bottom: -55px;
+
+    
+    
+    .form-label {
+        color: #355e3b;
+        font-size: 15px; 
+        margin-left:-185px; 
+    }
+}
+
+.form-group {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+
+    #btn1 {
+        border-radius: 5px;
+        background-color: #355e3b;
+        width: 150px;
+        height: 45px;
+        margin-right: 10px;
+    }
+
+    #btn2 {
+        border-radius: 5px;
+        background-color: #355e3b;
+        width: 150px;
+        height: 45px;
+        margin-left: 10px;
+    }
+}
+
+
+.demo{
+    margin-top: 15px;
+    padding: 20px;
+    color: #355e3b;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Single Day', cursive;
+}
+
+
